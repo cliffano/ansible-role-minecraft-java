@@ -1,0 +1,4 @@
+---
+minecraft_version: '1.21'
+install_dir: /opt/minecraft
+java_opts: -Xmx2048M -Xms1024M

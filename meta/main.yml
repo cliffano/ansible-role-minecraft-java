@@ -1,0 +1,16 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: minecraft_java
+  author: cliffano
+  description: Ansible role for provisioning vanilla Minecraft Java
+  license: "license (MIT)"
+  min_ansible_version: 10.3.0
+  galaxy_tags:
+    - minecraft
+    - java
+  platforms:
+    - name: Ubuntu
+      versions:
+        - jammy
