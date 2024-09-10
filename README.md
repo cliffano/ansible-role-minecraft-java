@@ -16,7 +16,7 @@ Add the role to playbook:
     - hosts: all
 
       vars:
-        minecraft_version: 1.21
+        minecraft_version: '1.21'
         install_dir: /opt/minecraft
         java_opts: -Xmx2048M - Xms1024M
 
