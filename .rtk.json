@@ -4,7 +4,7 @@
       "path": "meta/main.yaml",
       "type": "yaml",
       "params": {
-        "property": "galaxy_info.version"
+        "property": "version"
       }
     },
     {
