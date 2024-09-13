@@ -4,6 +4,7 @@ dependencies: []
 galaxy_info:
   namespace: cliffano
   role_name: minecraft_java
+  version: 0.9.0-pre.0
   author: cliffano
   description: Ansible role for provisioning vanilla Minecraft Java
   license: "license (MIT)"
