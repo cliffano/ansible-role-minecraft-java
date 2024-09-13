@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  namespace: cliffano
   role_name: minecraft_java
   author: cliffano
   description: Ansible role for provisioning vanilla Minecraft Java
