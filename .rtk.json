@@ -1,7 +1,7 @@
 {
   "resources": [
     {
-      "path": "meta/main.yaml",
+      "path": "config/meta-extra.yaml",
       "type": "yaml",
       "params": {
         "property": "version"
