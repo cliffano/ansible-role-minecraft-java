@@ -1,11 +1,11 @@
 import pytest
 
-def test_install_dir(host):
+def test_mcj_install_dir(host):
 
-    install_dir = host.file('/opt/minecraft')
-    assert install_dir.exists
-    assert install_dir.is_directory
-    assert install_dir.mode == 0o755
+    mcj_install_dir = host.file('/opt/minecraft')
+    assert mcj_install_dir.exists
+    assert mcj_install_dir.is_directory
+    assert mcj_install_dir.mode == 0o755
 
 def test_install_bin_dir(host):
 

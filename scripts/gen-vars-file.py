@@ -23,7 +23,7 @@ def retrieve_versions_data():
 
         launchermeta_api = minecraftverse.DefaultApi(launchermeta_api_client)
 
-        manifest = launchermeta_api.get_minecraft_version_manifest()
+        manifest = launchermeta_api.get_mcj_minecraft_version_manifest()
         for version in manifest.versions:
             version_url_parts = version.url.split('/')
             package_id = version_url_parts[-2]
@@ -38,7 +38,7 @@ def retrieve_versions_data():
 
                     # version.id value is not URL encoded, we offload the encoding to the API client.
                     # For version that has spaces in the name, we must pass the non-URL-encoded value.
-                    version_package_info = piston_api.get_minecraft_version_package_info(package_id, version.id)
+                    version_package_info = piston_api.get_mcj_minecraft_version_package_info(package_id, version.id)
 
                     if (version_package_info.downloads.server is None):
                         logger.error(f'No server jar found for version {version.id} with package ID {package_id}')

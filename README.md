@@ -16,9 +16,9 @@ Add the role to playbook:
     - hosts: all
 
       vars:
-        minecraft_version: '1.21'
-        install_dir: /opt/minecraft
-        java_opts: -Xmx2048M - Xms1024M
+        mcj_minecraft_version: '1.21'
+        mcj_install_dir: /opt/minecraft
+        mcj_java_opts: -Xmx2048M - Xms1024M
 
       roles:
         - cliffano.minecraft-java
