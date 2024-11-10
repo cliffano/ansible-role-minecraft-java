@@ -14,7 +14,7 @@
     - "{{ install_dir }}/bin"
     - "{{ install_dir }}/workspace"
 
-- name: Get the status of Minecraft Server {{ minecraft_version }} jar file
+- name: "Get the status of Minecraft Server {{ minecraft_version }} jar file"
   ansible.builtin.stat:
     path: "{{ install_dir }}/bin/minecraft_server.{{ minecraft_version }}.jar"
   register: minecraft_server_version_jar_file
@@ -38,7 +38,7 @@
     msg: "Downloaded Minecraft Server jar file checksum {{ minecraft_server_jar_file.stat.checksum }} does not match the expected checksum {{ minecraft_versions[minecraft_version]['sha1'] }}"
   when: not minecraft_server_version_jar_file.stat.exists and minecraft_server_jar_file.stat.checksum != minecraft_versions[minecraft_version]['sha1']
 
-- name: Copy Minecraft Server jar file as Minecraft Server {{ minecraft_version }} jar file
+- name: "Copy Minecraft Server jar file as Minecraft Server {{ minecraft_version }} jar file"
   ansible.builtin.copy:
     remote_src: true
     src: "{{ install_dir }}/bin/server.jar"
