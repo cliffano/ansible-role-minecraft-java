@@ -44,7 +44,7 @@
     src: "{{ install_dir }}/bin/server.jar"
     dest: "{{ install_dir }}/bin/minecraft_server.{{ minecraft_version }}.jar"
     mode: 0644
-  when: minecraft_server_jar_file.stat.exists and not minecraft_server_version_jar_file.stat.exists
+  when: not minecraft_server_version_jar_file.stat.exists and minecraft_server_jar_file.stat.exists
 
 - name: Delete Minecraft Server jar file
   ansible.builtin.file:
