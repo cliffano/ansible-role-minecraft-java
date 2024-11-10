@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add 1.21.2*, 1.21.3, 24w37a-24w45a versions
+
+### Changed
+- Upgrade minecraftverse to 1.0.0
+
 ### Fixed
 - Fix minecraft server copying condition and remote source
 
