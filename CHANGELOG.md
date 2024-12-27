@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add 1.21.4* and 24w46a versions
+
 ## 1.1.0 - 2024-11-10
 ### Changed
 - Add mcj_ prefix to all user variables
