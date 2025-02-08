@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add 25w02a, 25w03a, 25w04a, 25w05a, 25w06a versions
+
 ### Changed
 - Move Python tools to venv
 
