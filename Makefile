@@ -1,17 +1,15 @@
 ci: deps lint test
 
-python3 -m venv .venv && . .venv/bin/activate
-
 deps:
-	python3 -m pip install -r requirements.txt
+	python3 -m venv .venv && . .venv/bin/activate && python3 -m pip install -r requirements.txt
 
 lint:
-	molecule lint
+	.venv/bin/molecule lint
 
 gen-vars-file:
-	python3 scripts/gen-vars-file.py
+	python3 -m venv .venv && . .venv/bin/activate && python3 scripts/gen-vars-file.py
 
 test:
-	molecule test
+	.venv/bin/molecule test
 
 .PHONY: ci deps lint gen-vars-file test
