@@ -18,5 +18,5 @@ verifier:
   name: testinfra
 lint: |
   set -e
-  yamllint .
-  ansible-lint
+  .venv/bin/yamllint .
+  .venv/bin/ansible-lint
