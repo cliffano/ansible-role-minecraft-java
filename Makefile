@@ -7,7 +7,7 @@ lint:
 	.venv/bin/molecule lint
 
 gen-vars-file:
-	python3 scripts/gen-vars-file.py
+	python3 -m venv .venv && . .venv/bin/activate && python3 scripts/gen-vars-file.py
 
 test:
 	.venv/bin/molecule test
