@@ -22,3 +22,26 @@ Add the role to playbook:
 
       roles:
         - cliffano.minecraft-java
+
+For convenience, add aliases for starting and stopping the server, editing server.properties, and tailing the server log:
+
+    alias minecraft-start='cd <mcj_install_dir>/workspace && nohup <mcj_install_dir>/bin/start.sh > /var/log/minecraft/minecraft.log &'
+    alias minecraft-stop='pkill java' # temporary, will have to handle specific java process from minecraft-start PID
+    alias minecraft-conf='vi <mcj_install_dir>/workspace/server.properties'
+    alias minecraft-log='tail -f <mcj_install_dir>/workspace/logs/latest.log'
+
+Config
+------
+
+When the server is started the very first time, you'll encounter a warning message about EULA:
+
+    [23:06:52] [ServerMain/WARN]: Failed to load eula.txt
+    [23:06:52] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+
+Open the configuration file at `<mcj_install_dir>/workspace/server.properties`:
+
+    #By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
+    #Sat Feb 15 23:06:52 UTC 2025
+    eula=false
+
+and then replace `eula=false` with `eula=true`.
