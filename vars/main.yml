@@ -2186,6 +2186,18 @@ minecraft_versions:
   25w07a:
     sha1: f264312044768694831ad285fdde1d55e2f16c92
     url: https://piston-data.mojang.com/v1/objects/f264312044768694831ad285fdde1d55e2f16c92/server.jar
+  25w08a:
+    sha1: a813292f7680fa8e2c3514d9a55773badcee2dc9
+    url: https://piston-data.mojang.com/v1/objects/a813292f7680fa8e2c3514d9a55773badcee2dc9/server.jar
+  25w09a:
+    sha1: baab122c7652b302621f7befd5be40abef9b9b7c
+    url: https://piston-data.mojang.com/v1/objects/baab122c7652b302621f7befd5be40abef9b9b7c/server.jar
+  25w09b:
+    sha1: 99da672b78a9ff683da6961096e4a6fd6e8db1ca
+    url: https://piston-data.mojang.com/v1/objects/99da672b78a9ff683da6961096e4a6fd6e8db1ca/server.jar
+  25w10a:
+    sha1: 0177c3a044813dc7d10b43b14b7f47224bd43067
+    url: https://piston-data.mojang.com/v1/objects/0177c3a044813dc7d10b43b14b7f47224bd43067/server.jar
   3D Shareware v1.34:
     sha1: ffd306fc2aaa884755c5a6bf9fbd87aed26dd78f
     url: https://piston-data.mojang.com/v1/objects/ffd306fc2aaa884755c5a6bf9fbd87aed26dd78f/server.jar
