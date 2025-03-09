@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Added
-- Add 25w07a version
+- Add 25w07a, 25w08a, 25w09a, 25w09b, 25w10a versions
 - Add generate-vars-file GH Action workflow
 
 ## 1.3.0 - 2025-02-08
