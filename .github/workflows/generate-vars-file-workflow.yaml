@@ -1,5 +1,5 @@
 ---
-name: Upgrade Deps
+name: Generate Vars File
 on: [workflow_dispatch]
 jobs:
   build:
