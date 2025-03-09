@@ -4,6 +4,9 @@ define python_venv
 	. .venv/bin/activate && $(1)
 endef
 
+clean:
+	rm -rf stage/
+
 deps:
 	python3 -m venv .venv
 	$(call python_venv,python3 -m pip install -r requirements.txt)
