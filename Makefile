@@ -1,4 +1,4 @@
-ci: deps lint test
+ci: clean deps lint test
 
 define python_venv
 	. .venv/bin/activate && $(1)
@@ -6,6 +6,9 @@ endef
 
 clean:
 	rm -rf stage/
+
+rmdeps:
+	rm -rf .venv/
 
 deps:
 	python3 -m venv .venv
@@ -25,4 +28,4 @@ test:
 x-gen-vars-file:
 	$(call python_venv,python3 scripts/gen-vars-file.py)
 
-.PHONY: ci deps deps-upgrade lint test x-gen-vars-file
+.PHONY: ci clean rmdeps deps deps-upgrade lint test x-gen-vars-file

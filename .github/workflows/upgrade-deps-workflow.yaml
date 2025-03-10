@@ -14,7 +14,7 @@ jobs:
           python-version: '3.12'
       - run: git config --global user.email 'pakkunbot'
       - run: git config --global user.name 'blah+pakkun@cliffano.com'
-      - run: make clean deps-upgrade deps
+      - run: make clean rmdeps deps-upgrade deps
       - run: make ci
       - run: git commit -am 'Upgrade dependencies to latest versions'
       - uses: ad-m/github-push-action@v0.8.0
