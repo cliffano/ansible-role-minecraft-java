@@ -4,7 +4,8 @@ ansible-lint
 conflog
 docker
 minecraftverse
-molecule
+# Need molecule lint command
+molecule==4.0.4
 PyYAML
 pytest
 pytest-testinfra
