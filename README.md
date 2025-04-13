@@ -23,6 +23,17 @@ Add the role to playbook:
       roles:
         - cliffano.minecraft-java
 
+Or alternatively, as a task using import role:
+
+      tasks:
+
+        - ansible.builtin.import_role:
+            name: cliffano.minecraft-java
+          vars:
+            mcj_minecraft_version: '1.21'
+            mcj_install_dir: /opt/minecraft
+            mcj_java_opts: -Xmx2048M - Xms1024M
+
 For convenience, add aliases for starting and stopping the server, editing server.properties, and tailing the server log:
 
     alias minecraft-start='cd <mcj_install_dir>/workspace && nohup <mcj_install_dir>/bin/start.sh > /var/log/minecraft/minecraft.log &'
