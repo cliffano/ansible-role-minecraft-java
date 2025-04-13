@@ -713,6 +713,24 @@ minecraft_versions:
   1.21.4-rc3:
     sha1: 653cd548ed5bb2a2bff08945878347f3a3b8844b
     url: https://piston-data.mojang.com/v1/objects/653cd548ed5bb2a2bff08945878347f3a3b8844b/server.jar
+  1.21.5:
+    sha1: e6ec2f64e6080b9b5d9b471b291c33cc7f509733
+    url: https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar
+  1.21.5-pre1:
+    sha1: b663ce11b5951546a74947c1896e0d4713188833
+    url: https://piston-data.mojang.com/v1/objects/b663ce11b5951546a74947c1896e0d4713188833/server.jar
+  1.21.5-pre2:
+    sha1: 7a6ec51f9e3095a8d2406042760d2989a1e8ad2b
+    url: https://piston-data.mojang.com/v1/objects/7a6ec51f9e3095a8d2406042760d2989a1e8ad2b/server.jar
+  1.21.5-pre3:
+    sha1: 58ca36190d8fb3ab0b6af0fc4fa9b3604a463eac
+    url: https://piston-data.mojang.com/v1/objects/58ca36190d8fb3ab0b6af0fc4fa9b3604a463eac/server.jar
+  1.21.5-rc1:
+    sha1: 6e5564e9b1a0a45d3cb028d5af591cd30e53b404
+    url: https://piston-data.mojang.com/v1/objects/6e5564e9b1a0a45d3cb028d5af591cd30e53b404/server.jar
+  1.21.5-rc2:
+    sha1: 82b8d395a4984987224b97c7df08ced03f78bdff
+    url: https://piston-data.mojang.com/v1/objects/82b8d395a4984987224b97c7df08ced03f78bdff/server.jar
   '1.3':
     sha1: cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7
     url: https://launcher.mojang.com/v1/objects/cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7/server.jar
@@ -2198,6 +2216,12 @@ minecraft_versions:
   25w10a:
     sha1: 0177c3a044813dc7d10b43b14b7f47224bd43067
     url: https://piston-data.mojang.com/v1/objects/0177c3a044813dc7d10b43b14b7f47224bd43067/server.jar
+  25w14craftmine:
+    sha1: 4527a9019e37e001770787e4523b505f79cac4c5
+    url: https://piston-data.mojang.com/v1/objects/4527a9019e37e001770787e4523b505f79cac4c5/server.jar
+  25w15a:
+    sha1: fed01fcdf4d2f37b3f847e08fd099714766533c3
+    url: https://piston-data.mojang.com/v1/objects/fed01fcdf4d2f37b3f847e08fd099714766533c3/server.jar
   3D Shareware v1.34:
     sha1: ffd306fc2aaa884755c5a6bf9fbd87aed26dd78f
     url: https://piston-data.mojang.com/v1/objects/ffd306fc2aaa884755c5a6bf9fbd87aed26dd78f/server.jar
