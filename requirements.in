@@ -1,0 +1,11 @@
+# https://github.com/ansible/molecule/issues/3903
+ansible-compat==3.0.2
+ansible-lint
+conflog
+docker
+minecraftverse
+molecule
+PyYAML
+pytest
+pytest-testinfra
+yamllint
