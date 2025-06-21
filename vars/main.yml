@@ -731,6 +731,24 @@ minecraft_versions:
   1.21.5-rc2:
     sha1: 82b8d395a4984987224b97c7df08ced03f78bdff
     url: https://piston-data.mojang.com/v1/objects/82b8d395a4984987224b97c7df08ced03f78bdff/server.jar
+  1.21.6:
+    sha1: 6e64dcabba3c01a7271b4fa6bd898483b794c59b
+    url: https://piston-data.mojang.com/v1/objects/6e64dcabba3c01a7271b4fa6bd898483b794c59b/server.jar
+  1.21.6-pre1:
+    sha1: 197f0896f6bafc45b7cd1c90b88f7979dfcc99fe
+    url: https://piston-data.mojang.com/v1/objects/197f0896f6bafc45b7cd1c90b88f7979dfcc99fe/server.jar
+  1.21.6-pre2:
+    sha1: 67fcbd0cf180f7223fa52c58e5c6a7ac05145686
+    url: https://piston-data.mojang.com/v1/objects/67fcbd0cf180f7223fa52c58e5c6a7ac05145686/server.jar
+  1.21.6-pre3:
+    sha1: 03f53214df599b9e39a560b94d0df5636858c32f
+    url: https://piston-data.mojang.com/v1/objects/03f53214df599b9e39a560b94d0df5636858c32f/server.jar
+  1.21.6-pre4:
+    sha1: 650e7d088d8b243a9159641cef75303587ba36bd
+    url: https://piston-data.mojang.com/v1/objects/650e7d088d8b243a9159641cef75303587ba36bd/server.jar
+  1.21.6-rc1:
+    sha1: 2794c776ee51c3f3bd6b111ecfe5926b4f49df19
+    url: https://piston-data.mojang.com/v1/objects/2794c776ee51c3f3bd6b111ecfe5926b4f49df19/server.jar
   '1.3':
     sha1: cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7
     url: https://launcher.mojang.com/v1/objects/cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7/server.jar
@@ -2222,6 +2240,24 @@ minecraft_versions:
   25w15a:
     sha1: fed01fcdf4d2f37b3f847e08fd099714766533c3
     url: https://piston-data.mojang.com/v1/objects/fed01fcdf4d2f37b3f847e08fd099714766533c3/server.jar
+  25w16a:
+    sha1: 3d8223843a659d8ebc33459864ba02b34485ea11
+    url: https://piston-data.mojang.com/v1/objects/3d8223843a659d8ebc33459864ba02b34485ea11/server.jar
+  25w17a:
+    sha1: 575756f90e54e5c2cd78997dd9e3579936aa9d6d
+    url: https://piston-data.mojang.com/v1/objects/575756f90e54e5c2cd78997dd9e3579936aa9d6d/server.jar
+  25w18a:
+    sha1: e69d69f1817f6c52f6ad2ca73ee1ef8a6903e560
+    url: https://piston-data.mojang.com/v1/objects/e69d69f1817f6c52f6ad2ca73ee1ef8a6903e560/server.jar
+  25w19a:
+    sha1: cd279a0a79fd62f41c9dd8d17d455d06ff4d8013
+    url: https://piston-data.mojang.com/v1/objects/cd279a0a79fd62f41c9dd8d17d455d06ff4d8013/server.jar
+  25w20a:
+    sha1: 4b7a074f7813de85698c185100736fae64f9b4fa
+    url: https://piston-data.mojang.com/v1/objects/4b7a074f7813de85698c185100736fae64f9b4fa/server.jar
+  25w21a:
+    sha1: a5f7be5d2f05250abfc49639a26f399b8a8ebb61
+    url: https://piston-data.mojang.com/v1/objects/a5f7be5d2f05250abfc49639a26f399b8a8ebb61/server.jar
   3D Shareware v1.34:
     sha1: ffd306fc2aaa884755c5a6bf9fbd87aed26dd78f
     url: https://piston-data.mojang.com/v1/objects/ffd306fc2aaa884755c5a6bf9fbd87aed26dd78f/server.jar
