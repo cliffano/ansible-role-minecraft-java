@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add 1.21.6* versions
+
 ## 1.5.0 - 2025-04-13
 ### Added
 - Add 1.21.5*, 25w14craftmine, and 25w15a versions
