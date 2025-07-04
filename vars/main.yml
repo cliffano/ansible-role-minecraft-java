@@ -749,6 +749,15 @@ minecraft_versions:
   1.21.6-rc1:
     sha1: 2794c776ee51c3f3bd6b111ecfe5926b4f49df19
     url: https://piston-data.mojang.com/v1/objects/2794c776ee51c3f3bd6b111ecfe5926b4f49df19/server.jar
+  1.21.7:
+    sha1: 05e4b48fbc01f0385adb74bcff9751d34552486c
+    url: https://piston-data.mojang.com/v1/objects/05e4b48fbc01f0385adb74bcff9751d34552486c/server.jar
+  1.21.7-rc1:
+    sha1: 72716f71dfbc3d026a8577854ebaa69c63eb4474
+    url: https://piston-data.mojang.com/v1/objects/72716f71dfbc3d026a8577854ebaa69c63eb4474/server.jar
+  1.21.7-rc2:
+    sha1: 273c8ffdb3d05f4575376b43d8175716cab1a39f
+    url: https://piston-data.mojang.com/v1/objects/273c8ffdb3d05f4575376b43d8175716cab1a39f/server.jar
   '1.3':
     sha1: cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7
     url: https://launcher.mojang.com/v1/objects/cb21a9aaaf599c94dd7fa1b777b2f0cc37a776c7/server.jar
