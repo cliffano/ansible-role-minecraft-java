@@ -26,7 +26,7 @@
     mode: 0644
   when: not minecraft_server_version_jar_file.stat.exists
 
-- name: Get the status of Minecraft Server jar file
+- name: Get the status of downloaded Minecraft Server jar file
   ansible.builtin.stat:
     path: "{{ mcj_install_dir }}/bin/server.jar"
     checksum_algorithm: sha1
@@ -38,7 +38,7 @@
     msg: "Downloaded Minecraft Server jar file checksum {{ minecraft_server_jar_file.stat.checksum }} does not match the expected checksum {{ minecraft_versions[mcj_minecraft_version]['sha1'] }}"
   when: not minecraft_server_version_jar_file.stat.exists and minecraft_server_jar_file.stat.checksum != minecraft_versions[mcj_minecraft_version]['sha1']
 
-- name: "Copy Minecraft Server jar file as Minecraft Server {{ mcj_minecraft_version }} jar file"
+- name: "Copy downloaded Minecraft Server jar file as Minecraft Server {{ mcj_minecraft_version }} jar file"
   ansible.builtin.copy:
     remote_src: true
     src: "{{ mcj_install_dir }}/bin/server.jar"
@@ -46,7 +46,7 @@
     mode: 0644
   when: not minecraft_server_version_jar_file.stat.exists and minecraft_server_jar_file.stat.exists
 
-- name: Delete Minecraft Server jar file
+- name: Delete downloaded Minecraft Server jar file
   ansible.builtin.file:
     path: "{{ mcj_install_dir }}/bin/server.jar"
     state: absent
