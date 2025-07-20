@@ -51,6 +51,11 @@
     path: "{{ mcj_install_dir }}/bin/server.jar"
     state: absent
 
+- name: Ensure Minecraft Server jar file or symlink does not exist
+  ansible.builtin.file:
+    path: "{{ mcj_install_dir }}/bin/minecraft_server.jar"
+    state: absent
+
 - name: Create symbolic link for Minecraft Server jar file
   ansible.builtin.file:
     src: "{{ mcj_install_dir }}/bin/minecraft_server.{{ mcj_minecraft_version }}.jar"
